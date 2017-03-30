@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    immutable-struct (2.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  immutable-struct
+
+BUNDLED WITH
+   1.14.6
