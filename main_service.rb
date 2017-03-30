@@ -21,7 +21,7 @@ class MainService
 
     on dependent_result.failure? do
       return Result.new(status: :failure,
-        message: "Dependent service fails with message: #{ dependent_result.message }")
+        message: "Dependent service failed with message: #{ dependent_result.message }")
     end
   end
 

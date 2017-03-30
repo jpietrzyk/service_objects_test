@@ -18,5 +18,4 @@ class DependentService
   def do_stuff
     return @decision ? succeed!('Hurray') : fail!('Ouch')
   end
-
 end
